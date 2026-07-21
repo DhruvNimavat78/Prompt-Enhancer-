@@ -1,0 +1,31 @@
+{
+  "name": "prompt-enhance",
+  "version": "1.0.0",
+  "description": "AI Prompt Enhancer - Desktop tray app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "build": {
+    "appId": "com.promptenhance.app",
+    "productName": "Prompt Enhance",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png"
+    }
+  },
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.6",
+    "electron": "^43.1.1",
+    "electron-store": "^8.1.0"
+  }
+}
