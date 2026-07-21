@@ -1,4 +1,4 @@
-# Prompt Enhance
+# Prompt Enhancer
 
 An AI-powered desktop tray application that enhances selected text using multiple LLM providers. Select any text, press a global shortcut, and get an AI-enhanced version pasted in its place.
 
